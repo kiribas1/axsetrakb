@@ -1,9 +1,12 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
+import cloudflare from '@astrojs/cloudflare';
+
 export default defineConfig({
   site: 'https://axsetrakb.info',
   integrations: [sitemap()],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es', 'zh', 'ru', 'pt', 'ar'],
@@ -12,4 +15,6 @@ export default defineConfig({
       redirectToDefaultLocale: false,
     },
   },
+
+  adapter: cloudflare(),
 });
