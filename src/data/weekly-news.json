@@ -1,78 +1,258 @@
 {
-  "week": "2026-W26",
+  "week": "2026-W27",
   "generated": "2026-06-29",
   "items": {
     "en": [
-      { "title": "Bitcoin Surpasses $95K as Institutional Adoption Accelerates", "summary": "Major financial institutions increase BTC allocations, pushing prices to new yearly highs." },
-      { "title": "Ethereum Layer 2 Networks Process Record 15M Daily Transactions", "summary": "Arbitrum and Base lead the scaling revolution with unprecedented throughput numbers." },
-      { "title": "SEC Approves Three New Altcoin ETFs", "summary": "Solana, XRP, and Cardano spot ETFs get regulatory green light for US markets." },
-      { "title": "DeFi Total Value Locked Reaches $180 Billion", "summary": "Decentralized finance protocols see massive inflows as yields stabilize above traditional markets." },
-      { "title": "BRICS Nations Launch Cross-Border Crypto Settlement System", "summary": "New blockchain-based payment rail enables instant settlement between member states." },
-      { "title": "Hardware Wallet Sales Surge 300% After Major Exchange Breach", "summary": "Self-custody solutions see unprecedented demand following security incident at top-10 exchange." },
-      { "title": "AI-Powered Trading Bots Now Manage $12B in Crypto Assets", "summary": "Automated strategies outperform human traders by 23% on average in Q2 2026." },
-      { "title": "Tokenized Real Estate Market Hits $5B Milestone", "summary": "Fractional property ownership through blockchain gains mainstream acceptance globally." },
-      { "title": "Zero-Knowledge Proofs Enable Private DeFi Transactions", "summary": "New ZK protocols allow compliant privacy in decentralized exchanges and lending." },
-      { "title": "Central Banks Accelerate CBDC Development Worldwide", "summary": "Over 40 countries now in advanced CBDC testing phase, reshaping digital money landscape." }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ],
     "es": [
-      { "title": "Bitcoin Supera los $95K con la Adopción Institucional Acelerada", "summary": "Las principales instituciones financieras aumentan sus asignaciones en BTC." },
-      { "title": "Redes Layer 2 de Ethereum Procesan 15M de Transacciones Diarias", "summary": "Arbitrum y Base lideran la revolución de escalabilidad." },
-      { "title": "La SEC Aprueba Tres Nuevos ETFs de Altcoins", "summary": "ETFs spot de Solana, XRP y Cardano obtienen luz verde regulatoria." },
-      { "title": "El Valor Total Bloqueado en DeFi Alcanza $180 Mil Millones", "summary": "Los protocolos DeFi ven entradas masivas con rendimientos estables." },
-      { "title": "Naciones BRICS Lanzan Sistema de Liquidación Cripto Transfronterizo", "summary": "Nueva infraestructura blockchain para pagos instantáneos entre estados miembros." },
-      { "title": "Ventas de Billeteras Hardware Aumentan 300%", "summary": "La autocustodia ve demanda sin precedentes tras brecha en exchange." },
-      { "title": "Bots de Trading con IA Gestionan $12B en Criptoactivos", "summary": "Estrategias automatizadas superan a traders humanos en un 23%." },
-      { "title": "Mercado de Bienes Raíces Tokenizados Alcanza $5B", "summary": "La propiedad fraccionada mediante blockchain gana aceptación global." },
-      { "title": "Pruebas de Conocimiento Cero Permiten Transacciones DeFi Privadas", "summary": "Nuevos protocolos ZK permiten privacidad compatible en exchanges descentralizados." },
-      { "title": "Bancos Centrales Aceleran el Desarrollo de CBDCs", "summary": "Más de 40 países en fase avanzada de pruebas de monedas digitales." }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ],
     "zh": [
-      { "title": "比特币突破9.5万美元，机构采用加速", "summary": "主要金融机构增加BTC配置，推动价格创年内新高。" },
-      { "title": "以太坊Layer 2网络日处理1500万笔交易", "summary": "Arbitrum和Base以前所未有的吞吐量引领扩容革命。" },
-      { "title": "SEC批准三只新山寨币ETF", "summary": "Solana、XRP和Cardano现货ETF获得美国市场监管批准。" },
-      { "title": "DeFi总锁定价值达到1800亿美元", "summary": "去中心化金融协议随着收益率稳定而获得大量资金流入。" },
-      { "title": "金砖国家启动跨境加密结算系统", "summary": "基于区块链的新支付通道实现成员国之间的即时结算。" },
-      { "title": "硬件钱包销量激增300%", "summary": "主要交易所安全事件后，自托管解决方案需求空前高涨。" },
-      { "title": "AI交易机器人管理120亿美元加密资产", "summary": "自动化策略在2026年第二季度平均超越人类交易者23%。" },
-      { "title": "代币化房地产市场突破50亿美元", "summary": "通过区块链实现的房产分割所有权在全球获得主流接受。" },
-      { "title": "零知识证明实现私密DeFi交易", "summary": "新ZK协议在去中心化交易所和借贷中实现合规隐私。" },
-      { "title": "全球央行加速CBDC开发", "summary": "超过40个国家进入央行数字货币高级测试阶段。" }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ],
     "ru": [
-      { "title": "Биткоин превысил $95K на фоне институционального принятия", "summary": "Крупные финансовые институты увеличивают распределение в BTC." },
-      { "title": "Сети Layer 2 Ethereum обрабатывают 15 млн транзакций в день", "summary": "Arbitrum и Base лидируют в революции масштабирования." },
-      { "title": "SEC одобрила три новых ETF на альткоины", "summary": "Спотовые ETF на Solana, XRP и Cardano получили разрешение." },
-      { "title": "TVL в DeFi достиг $180 миллиардов", "summary": "Протоколы DeFi видят массивные притоки при стабильной доходности." },
-      { "title": "Страны БРИКС запустили трансграничную криптосистему расчётов", "summary": "Новая блокчейн-инфраструктура для мгновенных расчётов между странами." },
-      { "title": "Продажи аппаратных кошельков выросли на 300%", "summary": "Спрос на самохранение резко вырос после взлома крупной биржи." },
-      { "title": "ИИ-торговые боты управляют $12 млрд в криптоактивах", "summary": "Автоматизированные стратегии превосходят человеческих трейдеров на 23%." },
-      { "title": "Рынок токенизированной недвижимости достиг $5 млрд", "summary": "Дробное владение через блокчейн набирает популярность по всему миру." },
-      { "title": "Доказательства с нулевым разглашением обеспечивают приватность DeFi", "summary": "Новые ZK-протоколы позволяют соответствующую требованиям приватность." },
-      { "title": "Центробанки ускоряют разработку CBDC по всему миру", "summary": "Более 40 стран в продвинутой фазе тестирования цифровых валют." }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ],
     "pt": [
-      { "title": "Bitcoin Ultrapassa $95K com Adoção Institucional Acelerada", "summary": "Principais instituições financeiras aumentam alocações em BTC." },
-      { "title": "Redes Layer 2 do Ethereum Processam 15M de Transações Diárias", "summary": "Arbitrum e Base lideram a revolução de escalabilidade." },
-      { "title": "SEC Aprova Três Novos ETFs de Altcoins", "summary": "ETFs spot de Solana, XRP e Cardano recebem aprovação regulatória." },
-      { "title": "Valor Total Bloqueado em DeFi Atinge $180 Bilhões", "summary": "Protocolos DeFi veem entradas massivas com rendimentos estáveis." },
-      { "title": "Nações BRICS Lançam Sistema de Liquidação Cripto Transfronteiriço", "summary": "Nova infraestrutura blockchain para pagamentos instantâneos entre estados membros." },
-      { "title": "Vendas de Carteiras Hardware Aumentam 300%", "summary": "Autocustódia vê demanda sem precedentes após violação em exchange." },
-      { "title": "Bots de Trading com IA Gerenciam $12B em Criptoativos", "summary": "Estratégias automatizadas superam traders humanos em 23%." },
-      { "title": "Mercado de Imóveis Tokenizados Atinge $5B", "summary": "Propriedade fracionada via blockchain ganha aceitação global." },
-      { "title": "Provas de Conhecimento Zero Permitem Transações DeFi Privadas", "summary": "Novos protocolos ZK habilitam privacidade compatível em DEXs." },
-      { "title": "Bancos Centrais Aceleram Desenvolvimento de CBDCs", "summary": "Mais de 40 países em fase avançada de testes de moedas digitais." }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ],
     "ar": [
-      { "title": "بيتكوين يتجاوز 95 ألف دولار مع تسارع التبني المؤسسي", "summary": "المؤسسات المالية الكبرى تزيد تخصيصاتها في BTC." },
-      { "title": "شبكات Layer 2 للإيثريوم تعالج 15 مليون معاملة يومياً", "summary": "Arbitrum و Base يقودان ثورة التوسع بأرقام غير مسبوقة." },
-      { "title": "SEC توافق على ثلاثة صناديق ETF جديدة للعملات البديلة", "summary": "صناديق Solana و XRP و Cardano الفورية تحصل على الموافقة." },
-      { "title": "إجمالي القيمة المقفلة في DeFi يصل إلى 180 مليار دولار", "summary": "بروتوكولات التمويل اللامركزي تشهد تدفقات ضخمة." },
-      { "title": "دول بريكس تطلق نظام تسوية عملات رقمية عابر للحدود", "summary": "بنية تحتية جديدة للمدفوعات الفورية بين الدول الأعضاء." },
-      { "title": "مبيعات المحافظ الصلبة ترتفع 300%", "summary": "الحفظ الذاتي يشهد طلباً غير مسبوق بعد اختراق منصة كبرى." },
-      { "title": "روبوتات تداول الذكاء الاصطناعي تدير 12 مليار دولار", "summary": "الاستراتيجيات الآلية تتفوق على المتداولين البشر بنسبة 23%." },
-      { "title": "سوق العقارات المرمزة يصل إلى 5 مليارات دولار", "summary": "الملكية الجزئية عبر البلوكتشين تكتسب قبولاً عالمياً." },
-      { "title": "إثباتات المعرفة الصفرية تتيح معاملات DeFi خاصة", "summary": "بروتوكولات ZK جديدة توفر خصوصية متوافقة في التبادلات اللامركزية." },
-      { "title": "البنوك المركزية تسرع تطوير العملات الرقمية", "summary": "أكثر من 40 دولة في مرحلة اختبار متقدمة للعملات الرقمية." }
+      {
+        "title": "Bitcoin Surges Past $145,000 as Institutional Demand Drives New All-Time High in June 2026",
+        "summary": "Bitcoin reached a historic milestone on June 29, 2026, breaking above $145,000 for the first time after a wave of institutional buying from sovereign wealth funds and major pension funds. Analysts attribute the rally to tightening supply following the 2024 halving and growing adoption of Bitcoin ETFs across Asian markets."
+      },
+      {
+        "title": "Ethereum Layer-2 Networks Process Record 12 Million Daily Transactions Amid DeFi Boom",
+        "summary": "Ethereum Layer-2 solutions including Arbitrum, Optimism, and the newly launched zkSync Nexus collectively processed over 12 million daily transactions this week, setting a new record. The surge is driven by explosive growth in decentralized finance protocols offering yield opportunities that rival traditional banking returns."
+      },
+      {
+        "title": "SEC Approves First Spot Solana ETF, Triggering 38% Price Surge in 48 Hours",
+        "summary": "The U.S. Securities and Exchange Commission granted approval to three asset managers to launch spot Solana ETFs, sending SOL prices soaring nearly 38% within two days. The decision marks a significant regulatory shift and is expected to open the door for additional altcoin ETF applications currently under review."
+      },
+      {
+        "title": "DeFi Total Value Locked Hits $890 Billion as Cross-Chain Protocols Dominate Growth",
+        "summary": "Decentralized finance protocols have collectively reached $890 billion in total value locked as of late June 2026, according to DeFiLlama data. Cross-chain liquidity protocols and real-world asset tokenization platforms are leading growth, attracting capital from both retail investors and institutional treasury managers."
+      },
+      {
+        "title": "Major Crypto Exchange Suffers $340 Million Hot Wallet Breach, Sparking Digital Asset Security Debate",
+        "summary": "A top-ten global cryptocurrency exchange disclosed a $340 million security breach on June 28, 2026, after attackers exploited a vulnerability in its hot wallet infrastructure. The incident has reignited calls for mandatory cold storage requirements and stricter cybersecurity audits across centralized exchanges worldwide."
+      },
+      {
+        "title": "Blockchain-Based Portfolio Tracking App Reaches 50 Million Users as Crypto Adoption Expands",
+        "summary": "CryptoLens, a blockchain-native portfolio tracking platform, announced it has surpassed 50 million active users globally, making it one of the fastest-growing fintech applications of 2026. The app aggregates holdings across 400 blockchains in real time and recently introduced AI-powered tax optimization and risk assessment features."
+      },
+      {
+        "title": "Real-World Asset Tokenization Market Surpasses $25 Trillion, Transforming Global Finance",
+        "summary": "The tokenization of real-world assets including real estate, treasury bonds, private equity, and commodities has surpassed $25 trillion in on-chain value, according to a new report from McKinsey Digital Assets. Blockchain-based asset management is now considered a mainstream financial instrument by regulators in over 60 countries."
+      },
+      {
+        "title": "Federal Reserve Releases Framework for Wholesale CBDC Integration with Private Blockchain Networks",
+        "summary": "The U.S. Federal Reserve published a comprehensive framework on June 29, 2026, outlining how its wholesale central bank digital currency will interact with permissioned private blockchain networks used by commercial banks. The announcement is seen as a critical step toward modernizing the U.S. interbank settlement system."
+      },
+      {
+        "title": "Crypto Market Capitalization Crosses $8 Trillion Milestone for First Time in History",
+        "summary": "The total global cryptocurrency market capitalization crossed the $8 trillion mark for the first time on June 29, 2026, reflecting sustained institutional adoption, favorable regulatory clarity in the U.S. and EU, and growing retail participation across emerging markets in Southeast Asia, Africa, and Latin America."
+      },
+      {
+        "title": "Zero-Knowledge Proof Technology Emerges as Gold Standard for Digital Asset Security and Privacy",
+        "summary": "Zero-knowledge proof cryptography has rapidly become the preferred security and privacy layer for digital asset transactions, with over 200 protocols now integrating ZK technology as of mid-2026. Experts say ZK proofs offer a breakthrough balance between transaction transparency required by regulators and user privacy demanded by institutional clients."
+      }
     ]
   }
 }
