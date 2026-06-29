@@ -1,5 +1,6 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import WeeklyNews from "../../components/WeeklyNews.astro";
 ---
 
 <BaseLayout
@@ -102,6 +103,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   </section>
 
   <div class="ax-ad-slot">مساحة إعلانية</div>
+  <WeeklyNews lang="ar" />
+
+  <div class="ax-ad-slot">Ad Space</div>
 </BaseLayout>
 
 <style is:global>
