@@ -70,8 +70,8 @@ const langNames: Record<string, string> = {
       body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         line-height: 1.6;
-        color: #1a1a2e;
-        background: #fafafa;
+        color: #e0e0e0;
+        background: #0a0b0f;
       }
       a {
         color: #0066cc;
@@ -86,12 +86,14 @@ const langNames: Record<string, string> = {
         padding: 0 20px;
       }
       header {
-        background: #1a1a2e;
+        background: rgba(10,11,15,.9);
         color: white;
         padding: 16px 0;
         position: sticky;
         top: 0;
         z-index: 100;
+        border-bottom: 1px solid rgba(255,255,255,.06);
+        backdrop-filter: blur(12px);
       }
       header .container {
         display: flex;
@@ -130,11 +132,12 @@ const langNames: Record<string, string> = {
         padding: 40px 0;
       }
       footer {
-        background: #1a1a2e;
-        color: #999;
+        background: #060709;
+        color: #666;
         padding: 24px 0;
         text-align: center;
         font-size: 0.85rem;
+        border-top: 1px solid rgba(255,255,255,.06);
       }
       .ad-slot {
         background: #f0f0f0;
