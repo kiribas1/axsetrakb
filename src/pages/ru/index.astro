@@ -4,45 +4,384 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="AXSetrakb - Отслеживание криптоактивов и аналитика альтернативных инвестиций"
-  description="Отслеживайте портфели криптовалют, управляйте альтернативными инвестициями, контролируйте DeFi-позиции и защищайте цифровые активы с помощью продвинутых инструментов блокчейн-аналитики."
+  description="Отслеживайте криптовалютные портфели, управляйте альтернативными инвестициями, мониторьте позиции DeFi и защищайте цифровые активы с помощью передовых инструментов блокчейн-аналитики."
   lang="ru"
 >
   <Fragment slot="logo">AXSetrakb</Fragment>
   <Fragment slot="footer-name">AXSetrakb</Fragment>
 
-  <section class="hero">
-    <h1>Отслеживание криптоактивов и инвестиционная аналитика</h1>
-    <p>Ваша комплексная платформа для управления криптовалютными портфелями, отслеживания альтернативных инвестиций, DeFi-аналитики и безопасности цифровых активов.</p>
+  <!-- HERO -->
+  <section class="ax-hero">
+    <div class="ax-hero-bg"></div>
+    <div class="ax-hero-grid"></div>
+    <div class="ax-hero-content">
+      <div class="ax-pill">
+        <span class="ax-pulse"></span>
+        <span>Рыночные данные в реальном времени</span>
+      </div>
+      <h1 class="ax-title">Криптоактивы:<br/><span class="ax-gradient-text">Отслеживание и аналитика</span></h1>
+      <p class="ax-lead">Мониторинг портфелей, отслеживание позиций DeFi, анализ данных on-chain и защита ваших цифровых активов — всё на одной платформе.</p>
+      <div class="ax-hero-stats">
+        <div class="ax-stat">
+          <span class="ax-stat-value">500+</span>
+          <span class="ax-stat-label">Отслеживаемых токенов</span>
+        </div>
+        <div class="ax-stat-divider"></div>
+        <div class="ax-stat">
+          <span class="ax-stat-value">24/7</span>
+          <span class="ax-stat-label">Мониторинг в реальном времени</span>
+        </div>
+        <div class="ax-stat-divider"></div>
+        <div class="ax-stat">
+          <span class="ax-stat-value">Multi</span>
+          <span class="ax-stat-label">Мультичейн поддержка</span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="ad-slot">Рекламное место - Google AdSense</div>
+  <div class="ax-ad-slot">Рекламное место</div>
 
-  <div class="card-grid">
-    <article class="card">
-      <h2>Отслеживание криптоактивов</h2>
-      <p>Мониторинг всего вашего криптовалютного портфеля на кошельках и биржах в реальном времени. Отслеживайте Bitcoin, Ethereum, альткоины и токены с актуальными ценами и аналитикой доходности.</p>
-    </article>
-    <article class="card">
-      <h2>Управление портфелем</h2>
-      <p>Объедините традиционные и цифровые активы в единой панели управления. Ребалансируйте распределения, настраивайте оповещения о ценах и визуализируйте чистую стоимость по всем классам активов.</p>
-    </article>
-    <article class="card">
-      <h2>Альтернативные инвестиции</h2>
-      <p>Исследуйте токенизированную недвижимость, сырьевые товары, частный капитал и NFT-коллекционирование. Оценивайте доходность с поправкой на риск и диверсифицируйте за пределы традиционных рынков.</p>
-    </article>
-    <article class="card">
-      <h2>DeFi и блокчейн</h2>
-      <p>Отслеживайте позиции в доходном фермерстве, пулах ликвидности, стейкинг-вознаграждения и протоколы кредитования. Будьте в курсе аудитов смарт-контрактов и новых DeFi-возможностей.</p>
-    </article>
-    <article class="card">
-      <h2>Безопасность цифровых активов</h2>
-      <p>Лучшие практики защиты криптовалют с помощью аппаратных кошельков, мультиподписных настроек и кастодиальных решений. Защита от взломов, мошенничества и потери ключей.</p>
-    </article>
-    <article class="card">
-      <h2>Аналитика и инвестиционные инструменты</h2>
-      <p>Продвинутые графики, ончейн-анализ, инструменты налоговой отчётности и рыночные прогнозы на основе ИИ. Принимайте решения на основе данных с аналитикой институционального уровня.</p>
-    </article>
-  </div>
+  <!-- SERVICES -->
+  <section class="ax-section">
+    <div class="ax-container">
+      <h2 class="ax-section-title">Функции <span class="ax-gradient-text">платформы</span></h2>
+      <p class="ax-section-sub">Инструменты институционального уровня для отслеживания, анализа и защиты вашего цифрового капитала.</p>
 
-  <div class="ad-slot">Рекламное место - Google AdSense</div>
+      <div class="ax-grid">
+        <article class="ax-card">
+          <div class="ax-card-icon">📊</div>
+          <h3>Отслеживание криптоактивов</h3>
+          <p>Мониторьте весь ваш криптовалютный портфель на кошельках и биржах в реальном времени. Отслеживайте Bitcoin, Ethereum, альткоины и токены с живыми ценовыми потоками.</p>
+          <div class="ax-card-tag">Реальное время</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">💼</div>
+          <h3>Управление портфелем</h3>
+          <p>Объедините традиционные и цифровые активы на одной панели. Ребалансируйте распределения, настройте оповещения и визуализируйте чистую стоимость по всем классам активов.</p>
+          <div class="ax-card-tag">Мультиактив</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🏦</div>
+          <h3>Альтернативные инвестиции</h3>
+          <p>Исследуйте токенизированную недвижимость, сырьевые товары, частный капитал и NFT-коллекционирование. Оценивайте доходность с поправкой на риск и диверсифицируйте за пределами традиционных рынков.</p>
+          <div class="ax-card-tag">Диверсификация</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">⛓️</div>
+          <h3>DeFi и блокчейн</h3>
+          <p>Отслеживайте позиции в yield farming, пулы ликвидности, вознаграждения за стейкинг и протоколы кредитования. Будьте в курсе аудитов смарт-контрактов и новых возможностей DeFi.</p>
+          <div class="ax-card-tag">On-Chain</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🔒</div>
+          <h3>Безопасность цифровых активов</h3>
+          <p>Лучшие практики защиты активов с помощью аппаратных кошельков, мультиподписных конфигураций и кастодиальных решений. Защитите себя от взломов, мошенничества и потери ключей.</p>
+          <div class="ax-card-tag">Безопасность</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🤖</div>
+          <h3>Аналитика на базе ИИ</h3>
+          <p>Продвинутые графики, анализ on-chain, инструменты налоговой отчётности и рыночные инсайты на базе ИИ. Принимайте решения на основе данных с аналитикой институционального уровня.</p>
+          <div class="ax-card-tag">ИИ-инсайты</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="ax-ad-slot">Рекламное место</div>
+
+  <!-- CTA -->
+  <section class="ax-cta">
+    <div class="ax-cta-bg"></div>
+    <div class="ax-container ax-cta-content">
+      <h2>Готовы взять под контроль свои<br/><span class="ax-gradient-text">цифровые активы?</span></h2>
+      <p>Присоединяйтесь к тысячам инвесторов, которые используют AXSetrakb для отслеживания, анализа и защиты своих криптопортфелей.</p>
+      <a href="mailto:info@axsetrakb.info" class="ax-btn">Начать</a>
+    </div>
+  </section>
+
+  <div class="ax-ad-slot">Рекламное место</div>
 </BaseLayout>
+
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..800&display=swap');
+</style>
+
+<style>
+  :root {
+    --ax-bg: #0a0b0f;
+    --ax-surface: rgba(255,255,255,.04);
+    --ax-border: rgba(255,255,255,.08);
+    --ax-text: rgba(255,255,255,.85);
+    --ax-muted: rgba(255,255,255,.5);
+    --ax-cyan: #00f0ff;
+    --ax-green: #00ff88;
+    --ax-purple: #8b5cf6;
+  }
+
+  /* HERO */
+  .ax-hero {
+    position: relative;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(800px 500px at 30% 20%, rgba(0,240,255,.12), transparent 60%),
+      radial-gradient(600px 400px at 70% 60%, rgba(139,92,246,.1), transparent 60%),
+      radial-gradient(500px 300px at 50% 90%, rgba(0,255,136,.08), transparent 50%),
+      var(--ax-bg);
+  }
+  .ax-hero-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 30%, transparent 100%);
+  }
+  .ax-hero-content {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  .ax-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0,240,255,.08);
+    border: 1px solid rgba(0,240,255,.2);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: .8rem;
+    color: var(--ax-cyan);
+    margin-bottom: 24px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .ax-pulse {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--ax-green);
+    box-shadow: 0 0 0 3px rgba(0,255,136,.2);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 3px rgba(0,255,136,.2); }
+    50% { box-shadow: 0 0 0 8px rgba(0,255,136,.05); }
+  }
+
+  .ax-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.02em;
+  }
+  @media(max-width:640px) { .ax-title { font-size: 2.2rem; } }
+
+  .ax-gradient-text {
+    background: linear-gradient(135deg, var(--ax-cyan), var(--ax-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .ax-lead {
+    font-size: 1.15rem;
+    color: var(--ax-muted);
+    max-width: 50ch;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  .ax-hero-stats {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ax-stat { text-align: center; }
+  .ax-stat-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .ax-stat-label {
+    font-size: .75rem;
+    color: var(--ax-muted);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .ax-stat-divider {
+    width: 1px;
+    height: 40px;
+    background: var(--ax-border);
+  }
+
+  /* SECTIONS */
+  .ax-section {
+    background: var(--ax-bg);
+    padding: 80px 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .ax-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .ax-section-sub {
+    color: var(--ax-muted);
+    margin-bottom: 40px;
+    font-size: 1.05rem;
+  }
+
+  /* CARD GRID */
+  .ax-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media(max-width:900px) { .ax-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media(max-width:600px) { .ax-grid { grid-template-columns: 1fr; } }
+
+  .ax-card {
+    background: var(--ax-surface);
+    border: 1px solid var(--ax-border);
+    border-radius: 16px;
+    padding: 28px;
+    transition: all .3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .ax-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--ax-cyan), var(--ax-green));
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  .ax-card:hover {
+    border-color: rgba(0,240,255,.2);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.4);
+  }
+  .ax-card:hover::before { opacity: 1; }
+
+  .ax-card-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    width: 52px; height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,240,255,.06);
+    border: 1px solid rgba(0,240,255,.1);
+    border-radius: 14px;
+  }
+  .ax-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .ax-card p {
+    color: var(--ax-muted);
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .ax-card-tag {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ax-cyan);
+    background: rgba(0,240,255,.08);
+    border: 1px solid rgba(0,240,255,.15);
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  /* CTA */
+  .ax-cta {
+    position: relative;
+    padding: 80px 0;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-cta-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(600px 300px at 50% 50%, rgba(0,240,255,.1), transparent 60%),
+      var(--ax-bg);
+  }
+  .ax-cta-content {
+    position: relative;
+  }
+  .ax-cta h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  .ax-cta p {
+    color: var(--ax-muted);
+    margin-bottom: 28px;
+    font-size: 1.05rem;
+  }
+  .ax-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--ax-cyan), var(--ax-green));
+    color: #0a0b0f;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all .3s;
+    box-shadow: 0 8px 30px rgba(0,240,255,.2);
+  }
+  .ax-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0,240,255,.3);
+    text-decoration: none;
+  }
+
+  /* AD SLOT */
+  .ax-ad-slot {
+    background: rgba(255,255,255,.02);
+    border: 1px dashed rgba(255,255,255,.08);
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,.2);
+    font-size: .8rem;
+    font-family: 'Inter', sans-serif;
+  }
+</style>

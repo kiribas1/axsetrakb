@@ -4,45 +4,384 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="AXSetrakb - 加密资产追踪与另类投资分析"
-  description="追踪加密货币投资组合，管理另类投资，监控DeFi头寸，使用先进的区块链分析工具保护数字资产。"
+  description="追踪加密货币投资组合，管理另类投资，监控DeFi头寸，并通过先进的区块链分析工具保护数字资产。"
   lang="zh"
 >
   <Fragment slot="logo">AXSetrakb</Fragment>
   <Fragment slot="footer-name">AXSetrakb</Fragment>
 
-  <section class="hero">
-    <h1>加密资产追踪与投资分析平台</h1>
-    <p>您的一站式加密货币投资组合管理、另类投资追踪、DeFi分析和数字资产安全综合平台。</p>
+  <!-- HERO -->
+  <section class="ax-hero">
+    <div class="ax-hero-bg"></div>
+    <div class="ax-hero-grid"></div>
+    <div class="ax-hero-content">
+      <div class="ax-pill">
+        <span class="ax-pulse"></span>
+        <span>实时市场数据</span>
+      </div>
+      <h1 class="ax-title">加密资产<br/><span class="ax-gradient-text">追踪与分析</span></h1>
+      <p class="ax-lead">监控投资组合、追踪DeFi头寸、分析链上数据并保护您的数字资产——一站式平台。</p>
+      <div class="ax-hero-stats">
+        <div class="ax-stat">
+          <span class="ax-stat-value">500+</span>
+          <span class="ax-stat-label">追踪代币</span>
+        </div>
+        <div class="ax-stat-divider"></div>
+        <div class="ax-stat">
+          <span class="ax-stat-value">24/7</span>
+          <span class="ax-stat-label">实时监控</span>
+        </div>
+        <div class="ax-stat-divider"></div>
+        <div class="ax-stat">
+          <span class="ax-stat-value">Multi</span>
+          <span class="ax-stat-label">多链支持</span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="ad-slot">广告位 - Google AdSense</div>
+  <div class="ax-ad-slot">广告位</div>
 
-  <div class="card-grid">
-    <article class="card">
-      <h2>加密资产追踪</h2>
-      <p>实时监控您在各钱包和交易所的完整加密货币投资组合。通过实时价格和绩效分析追踪比特币、以太坊、山寨币和代币。</p>
-    </article>
-    <article class="card">
-      <h2>投资组合管理</h2>
-      <p>在统一仪表板中整合传统资产和数字资产。重新平衡配置，设置价格变动提醒，可视化展示所有资产类别的净值。</p>
-    </article>
-    <article class="card">
-      <h2>另类投资</h2>
-      <p>探索代币化房地产、大宗商品、私募股权和NFT收藏品。评估风险调整后的回报，实现超越传统市场的多元化投资。</p>
-    </article>
-    <article class="card">
-      <h2>DeFi与区块链</h2>
-      <p>追踪流动性挖矿头寸、流动性池、质押奖励和借贷协议。及时了解智能合约审计和新兴DeFi投资机会。</p>
-    </article>
-    <article class="card">
-      <h2>数字资产安全</h2>
-      <p>使用硬件钱包、多重签名设置和托管方案保护加密资产的最佳实践。防范黑客攻击、诈骗和密钥丢失风险。</p>
-    </article>
-    <article class="card">
-      <h2>投资分析与工具</h2>
-      <p>高级图表、链上分析、税务报告工具和AI驱动的市场洞察。借助机构级分析工具做出数据驱动的投资决策。</p>
-    </article>
-  </div>
+  <!-- SERVICES -->
+  <section class="ax-section">
+    <div class="ax-container">
+      <h2 class="ax-section-title">平台<span class="ax-gradient-text">功能</span></h2>
+      <p class="ax-section-sub">机构级工具，用于追踪、分析和保护您的数字财富。</p>
 
-  <div class="ad-slot">广告位 - Google AdSense</div>
+      <div class="ax-grid">
+        <article class="ax-card">
+          <div class="ax-card-icon">📊</div>
+          <h3>加密资产追踪</h3>
+          <p>实时监控您在钱包和交易所中的全部加密货币投资组合。通过实时价格推送追踪比特币、以太坊、山寨币和代币。</p>
+          <div class="ax-card-tag">实时</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">💼</div>
+          <h3>投资组合管理</h3>
+          <p>在单一仪表板中整合传统和数字资产。重新平衡配置、设置警报，并在所有资产类别中可视化您的净资产。</p>
+          <div class="ax-card-tag">多资产</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🏦</div>
+          <h3>另类投资</h3>
+          <p>探索代币化房地产、大宗商品、私募股权和NFT收藏品。评估风险调整回报，超越传统市场实现多元化。</p>
+          <div class="ax-card-tag">多元化</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">⛓️</div>
+          <h3>DeFi与区块链</h3>
+          <p>追踪流动性挖矿头寸、流动性池、质押奖励和借贷协议。及时了解智能合约审计和新兴DeFi机会。</p>
+          <div class="ax-card-tag">链上</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🔒</div>
+          <h3>数字资产安全</h3>
+          <p>使用硬件钱包、多签设置和托管解决方案保护资产的最佳实践。防范黑客攻击、诈骗和密钥丢失。</p>
+          <div class="ax-card-tag">安全</div>
+        </article>
+        <article class="ax-card">
+          <div class="ax-card-icon">🤖</div>
+          <h3>AI驱动分析</h3>
+          <p>高级图表、链上分析、税务报告工具和AI驱动的市场洞察。利用机构级分析做出数据驱动的决策。</p>
+          <div class="ax-card-tag">AI洞察</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="ax-ad-slot">广告位</div>
+
+  <!-- CTA -->
+  <section class="ax-cta">
+    <div class="ax-cta-bg"></div>
+    <div class="ax-container ax-cta-content">
+      <h2>准备好掌控您的<br/><span class="ax-gradient-text">数字资产了吗？</span></h2>
+      <p>加入数千名使用AXSetrakb追踪、分析和保护其加密投资组合的投资者。</p>
+      <a href="mailto:info@axsetrakb.info" class="ax-btn">立即开始</a>
+    </div>
+  </section>
+
+  <div class="ax-ad-slot">广告位</div>
 </BaseLayout>
+
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..800&display=swap');
+</style>
+
+<style>
+  :root {
+    --ax-bg: #0a0b0f;
+    --ax-surface: rgba(255,255,255,.04);
+    --ax-border: rgba(255,255,255,.08);
+    --ax-text: rgba(255,255,255,.85);
+    --ax-muted: rgba(255,255,255,.5);
+    --ax-cyan: #00f0ff;
+    --ax-green: #00ff88;
+    --ax-purple: #8b5cf6;
+  }
+
+  /* HERO */
+  .ax-hero {
+    position: relative;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(800px 500px at 30% 20%, rgba(0,240,255,.12), transparent 60%),
+      radial-gradient(600px 400px at 70% 60%, rgba(139,92,246,.1), transparent 60%),
+      radial-gradient(500px 300px at 50% 90%, rgba(0,255,136,.08), transparent 50%),
+      var(--ax-bg);
+  }
+  .ax-hero-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 30%, transparent 100%);
+  }
+  .ax-hero-content {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  .ax-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0,240,255,.08);
+    border: 1px solid rgba(0,240,255,.2);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: .8rem;
+    color: var(--ax-cyan);
+    margin-bottom: 24px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .ax-pulse {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--ax-green);
+    box-shadow: 0 0 0 3px rgba(0,255,136,.2);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 3px rgba(0,255,136,.2); }
+    50% { box-shadow: 0 0 0 8px rgba(0,255,136,.05); }
+  }
+
+  .ax-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.02em;
+  }
+  @media(max-width:640px) { .ax-title { font-size: 2.2rem; } }
+
+  .ax-gradient-text {
+    background: linear-gradient(135deg, var(--ax-cyan), var(--ax-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .ax-lead {
+    font-size: 1.15rem;
+    color: var(--ax-muted);
+    max-width: 50ch;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  .ax-hero-stats {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ax-stat { text-align: center; }
+  .ax-stat-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .ax-stat-label {
+    font-size: .75rem;
+    color: var(--ax-muted);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .ax-stat-divider {
+    width: 1px;
+    height: 40px;
+    background: var(--ax-border);
+  }
+
+  /* SECTIONS */
+  .ax-section {
+    background: var(--ax-bg);
+    padding: 80px 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .ax-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .ax-section-sub {
+    color: var(--ax-muted);
+    margin-bottom: 40px;
+    font-size: 1.05rem;
+  }
+
+  /* CARD GRID */
+  .ax-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media(max-width:900px) { .ax-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media(max-width:600px) { .ax-grid { grid-template-columns: 1fr; } }
+
+  .ax-card {
+    background: var(--ax-surface);
+    border: 1px solid var(--ax-border);
+    border-radius: 16px;
+    padding: 28px;
+    transition: all .3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .ax-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--ax-cyan), var(--ax-green));
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  .ax-card:hover {
+    border-color: rgba(0,240,255,.2);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.4);
+  }
+  .ax-card:hover::before { opacity: 1; }
+
+  .ax-card-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    width: 52px; height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,240,255,.06);
+    border: 1px solid rgba(0,240,255,.1);
+    border-radius: 14px;
+  }
+  .ax-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .ax-card p {
+    color: var(--ax-muted);
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .ax-card-tag {
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ax-cyan);
+    background: rgba(0,240,255,.08);
+    border: 1px solid rgba(0,240,255,.15);
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  /* CTA */
+  .ax-cta {
+    position: relative;
+    padding: 80px 0;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .ax-cta-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(600px 300px at 50% 50%, rgba(0,240,255,.1), transparent 60%),
+      var(--ax-bg);
+  }
+  .ax-cta-content {
+    position: relative;
+  }
+  .ax-cta h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  .ax-cta p {
+    color: var(--ax-muted);
+    margin-bottom: 28px;
+    font-size: 1.05rem;
+  }
+  .ax-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--ax-cyan), var(--ax-green));
+    color: #0a0b0f;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all .3s;
+    box-shadow: 0 8px 30px rgba(0,240,255,.2);
+  }
+  .ax-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0,240,255,.3);
+    text-decoration: none;
+  }
+
+  /* AD SLOT */
+  .ax-ad-slot {
+    background: rgba(255,255,255,.02);
+    border: 1px dashed rgba(255,255,255,.08);
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,.2);
+    font-size: .8rem;
+    font-family: 'Inter', sans-serif;
+  }
+</style>
